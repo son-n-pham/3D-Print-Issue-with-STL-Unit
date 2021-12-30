@@ -2,14 +2,14 @@
 
 This issue seems small but took me awhile to find out the solution. I write it up here for me to review again or for anyone in the world who might face this same problem.
 
-System:
+### System:
 - Siemen TeamCenter 11
 - Unigraphics NX 11
 
-Objectives:
+### Objectives:
 - Export final model in NX to STL file for inputing into Slicing software, which is Cura in my case.
 
-Challenges:
+### Challenges:
 - My model is currently in Inch unit (English unit)
 - NX does not have on-the-fly selection of units when exporting out to STL, thus the model in inch unit is directly exported out to STL file without unit conversion from inches to mm.
 - STL has no unit, and the file is default to understand that the file is already in mm.
@@ -18,7 +18,7 @@ Challenges:
 
   ![image](https://user-images.githubusercontent.com/79841341/147744158-c9db71a3-cded-4ea2-afb3-3c7ec7c90bbe.png)
 
-Solution:
+### Solution:
 - In NX, there are options to change units; however, they are just for measurement. When the model is created by inch, that unit is fixed and there is no option to change in NX.
 - There is a grip program shared in the below link, which is said to work with NX12. I tried it with my NX11 and it was not working on my case.
   https://community.sw.siemens.com/s/question/0D54O000061xYh1SAE/how-to-change-the-part-unit-from-inch-to-mm-in-nx12
