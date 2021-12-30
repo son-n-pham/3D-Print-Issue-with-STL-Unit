@@ -14,7 +14,7 @@ This issue seems small but took me awhile to find out the solution. I write it u
 - NX does not have on-the-fly selection of units when exporting out to STL, thus the model in inch unit is directly exported out to STL file without unit conversion from inches to mm.
 - STL has no unit, and the file is default to understand that the file is already in mm.
 - Because of that, the imported STL model from NX into slicing software Cura is incorrectly smaller due to the unit confusion.
-- The below has 4 small models which were incorrectly loaded due to the unit issue, and the big one was the correct one after the issue was resolved.
+- The below has 4 small models which were incorrectly loaded due to the unit issue, and the big was the correct one after the issue was resolved.
 
   ![image](https://user-images.githubusercontent.com/79841341/147744158-c9db71a3-cded-4ea2-afb3-3c7ec7c90bbe.png)
 
