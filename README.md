@@ -23,7 +23,9 @@ This issue seems small but took me awhile to find out the solution. I write it u
 - There is a grip program shared in the below link, which is said to work with NX12. I tried it with my NX11 and it was not working on my case.
   https://community.sw.siemens.com/s/question/0D54O000061xYh1SAE/how-to-change-the-part-unit-from-inch-to-mm-in-nx12
 - ug_convert_part.ext is my solution and luckily works. The tool can be found in the below folder, and need to be run in command prompt.
+
   ![image](https://user-images.githubusercontent.com/79841341/147744748-9552d071-0db4-43b5-9dad-fdd139f9b90c.png)
+  
 - Another small challenge is to have the NX file in my local folder for conversion. The file is currently store somewhere in the server of Teamcenter. To save the model, right-click on the **model file in Teamcenter**, select **Name References...**, then select the file with the extension of **prj** (The file is usually at the end of the list), and finally **click Download button** to download
 
 ![image](https://user-images.githubusercontent.com/79841341/147745120-e443ac14-9907-43ad-be29-41f425091015.png)
