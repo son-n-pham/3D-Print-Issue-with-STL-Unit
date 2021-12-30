@@ -42,7 +42,7 @@ c:\development>C:\Siemens\NX11.0\NXBIN\ug_convert_part.exe -mm <my_file_name>.pr
 
 ![image](https://user-images.githubusercontent.com/79841341/147746193-12970982-6857-43c1-99ad-df0c671be254.png)
 
-- Now I can use NX to open that converted prj file, then export out to STL. PROPLEM IS RESOLVED!!!
+- Now I can use NX to open that converted prj file, then export out to STL. **THE PROBLEM IS RESOLVED!!!**
 
 ![image](https://user-images.githubusercontent.com/79841341/147746296-c19eba17-4768-42d2-97b4-86d8d7dee109.png)
 
