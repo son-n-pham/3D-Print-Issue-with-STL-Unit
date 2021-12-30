@@ -33,10 +33,10 @@ This issue seems small but took me awhile to find out the solution. I write it u
 - After having the prj file downloaded from Teamcenter, we just save it to somewhere in the local drive, then open command prompt to run the ug_convert_part tool. In my case, I placed my prj file in development folder in C drive and the tool is in the address C:\Siemens\NX11.0\NXBIN\ug_convert_part.exe. So my syntax in Command Prompt is:
 
 ```cmd
-// This is to go to the folder c:\development
+# This is to go to the folder c:\development
 cd c:\development
 
-// Then run the command to convert
+# Then run the command to convert
 c:\development>C:\Siemens\NX11.0\NXBIN\ug_convert_part.exe -mm <my_file_name>.prt
 ```
 
